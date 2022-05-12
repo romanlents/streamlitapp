@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas as pd
 # import joblib
-!pip install joblib
-import joblib
+# !pip install joblib
+from joblib import *
 
 # Title
 st.header("Модель для предсказания силы тока I (mA)")
